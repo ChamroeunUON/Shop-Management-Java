@@ -1,0 +1,1430 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../cssb_sass/partials/_base.scss */
+BODY, A, H1, H2, H3, UL, LI, OL, TR, TD, P, OPTION, TEXTAREA, FORM, DIV {
+  color: black;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin: 0px;
+}
+
+/* line 7, ../cssb_sass/partials/_base.scss */
+HTML, BODY, A, UL, LI, OL, TR, TD, P, OPTION, TEXTAREA, FORM, DIV {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 11, ../cssb_sass/partials/_base.scss */
+UL {
+  list-style: none;
+}
+
+/* line 17, ../cssb_sass/partials/_base.scss */
+h1, .h1 {
+  font-size: 18px;
+}
+
+/* line 18, ../cssb_sass/partials/_base.scss */
+h2, .h2 {
+  font-size: 16px;
+}
+
+/* line 19, ../cssb_sass/partials/_base.scss */
+h3, .h3 {
+  font-size: 14px;
+}
+
+/* line 20, ../cssb_sass/partials/_base.scss */
+h4, .h4 {
+  font-size: 13px;
+}
+
+/* line 21, ../cssb_sass/partials/_base.scss */
+h5, .h5 {
+  font-size: 12px;
+}
+
+/* line 22, ../cssb_sass/partials/_base.scss */
+h6, .h6 {
+  font-size: 10px;
+}
+
+/* line 24, ../cssb_sass/partials/_base.scss */
+h1, .h1 {
+  padding: 0.5em 0;
+}
+
+/* line 26, ../cssb_sass/partials/_base.scss */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+/* line 30, ../cssb_sass/partials/_base.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.bc-arcat-red {
+  background-color: #eb2127;
+}
+.arcat-red {
+  color: #eb2127;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 27, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-1, .col-is-2, .col-is-3, .col-is-4, .col-is-5, .col-is-6, .col-is-7, .col-is-8, .col-is-9, .col-is-10, .col-is-11, .col-is-12 {
+    float: left;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-1 {
+    width: 8.33333%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-2 {
+    width: 16.66667%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-3 {
+    width: 25%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-4 {
+    width: 33.33333%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-5 {
+    width: 41.66667%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-6 {
+    width: 50%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-7 {
+    width: 58.33333%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-8 {
+    width: 66.66667%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-9 {
+    width: 75%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-10 {
+    width: 83.33333%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-11 {
+    width: 91.66667%;
+  }
+
+  /* line 35, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-12 {
+    width: 100%;
+  }
+
+  /* line 55, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-0 {
+    right: auto;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-1 {
+    right: 8.33333%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-2 {
+    right: 16.66667%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-3 {
+    right: 25%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-4 {
+    right: 33.33333%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-5 {
+    right: 41.66667%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-6 {
+    right: 50%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-7 {
+    right: 58.33333%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-8 {
+    right: 66.66667%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-9 {
+    right: 75%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-10 {
+    right: 83.33333%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-11 {
+    right: 91.66667%;
+  }
+
+  /* line 50, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-pull-12 {
+    right: 100%;
+  }
+
+  /* line 45, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-0 {
+    left: auto;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-1 {
+    left: 8.33333%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-2 {
+    left: 16.66667%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-3 {
+    left: 25%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-4 {
+    left: 33.33333%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-5 {
+    left: 41.66667%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-6 {
+    left: 50%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-7 {
+    left: 58.33333%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-8 {
+    left: 66.66667%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-9 {
+    left: 75%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-10 {
+    left: 83.33333%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-11 {
+    left: 91.66667%;
+  }
+
+  /* line 40, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-push-12 {
+    left: 100%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 60, ../cssb_sass/bootstrap/mixins/_grid-framework.scss */
+  .col-is-offset-12 {
+    margin-left: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 7, ../cssb_sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-is {
+    display: block !important;
+  }
+
+  /* line 10, ../cssb_sass/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-is {
+    display: table;
+  }
+
+  /* line 11, ../cssb_sass/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-is {
+    display: table-row !important;
+  }
+
+  /* line 13, ../cssb_sass/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-is,
+  td.visible-is {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 18, ../cssb_sass/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-is {
+    display: none !important;
+  }
+}
+@media (min-width: 767px) {
+  /* line 18, ../cssb_sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-is {
+    display: none !important;
+  }
+}
+@media (max-width: 480px) {
+  /* line 18, ../cssb_sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-is {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 40, ../cssb_sass/partials/_grids.scss */
+  .hidden-xs.visible-is-special {
+    display: block !important;
+  }
+}
+/* line 2, ../cssb_sass/partials/_xs.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 6, ../cssb_sass/partials/_xs.scss */
+body {
+  margin-bottom: 13em;
+}
+
+/* line 11, ../cssb_sass/partials/_xs.scss */
+.pointer,
+a[rel=nofollow] {
+  cursor: pointer;
+}
+
+/* line 14, ../cssb_sass/partials/_xs.scss */
+.zoom {
+  cursor: pointer;
+  cursor: zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+}
+
+/* line 21, ../cssb_sass/partials/_xs.scss */
+.table-inner-bordered {
+  margin-bottom: 0;
+}
+
+/* line 25, ../cssb_sass/partials/_xs.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 28, ../cssb_sass/partials/_xs.scss */
+.align-right {
+  text-align: right;
+}
+
+/* line 37, ../cssb_sass/partials/_xs.scss */
+.table-inner-bordered > thead > tr > th,
+.table-inner-bordered > tbody > tr > th,
+.table-inner-bordered > tfoot > tr > th,
+.table-inner-bordered > thead > tr > td,
+.table-inner-bordered > tbody > tr > td,
+.table-inner-bordered > tfoot > tr > td {
+  border-right: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/* line 42, ../cssb_sass/partials/_xs.scss */
+.table-inner-bordered > tbody > tr:last-child > td {
+  border-bottom: 0;
+}
+
+/* line 46, ../cssb_sass/partials/_xs.scss */
+.table-inner-bordered > tbody > tr > th:last-child,
+.table-inner-bordered > tbody > tr > td:last-child {
+  border-right: 0;
+}
+
+/* line 51, ../cssb_sass/partials/_xs.scss */
+.arcat-header {
+  background-color: black;
+  margin-bottom: 0px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 20px solid #eb2127;
+}
+
+/* line 58, ../cssb_sass/partials/_xs.scss */
+.login div {
+  padding-right: 1em;
+  margin-top: 0.75em;
+}
+/* line 61, ../cssb_sass/partials/_xs.scss */
+.login div:first-child {
+  margin-top: 1.5em;
+}
+
+/* line 65, ../cssb_sass/partials/_xs.scss */
+.social {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+/* line 68, ../cssb_sass/partials/_xs.scss */
+.social a {
+  color: white;
+  font-size: 22px;
+  margin: 0 0.125em;
+}
+
+/* line 76, ../cssb_sass/partials/_xs.scss */
+.arcat-brand .logo {
+  margin-top: 1em;
+}
+/* line 79, ../cssb_sass/partials/_xs.scss */
+.arcat-brand .mf {
+  color: white;
+  margin-left: 20px;
+}
+/* line 83, ../cssb_sass/partials/_xs.scss */
+.arcat-brand .mf a {
+  cursor: pointer;
+  color: white;
+}
+/* line 86, ../cssb_sass/partials/_xs.scss */
+.arcat-brand .mf a:hover {
+  color: #f4f4f4;
+}
+/* line 90, ../cssb_sass/partials/_xs.scss */
+.arcat-brand .mf .active {
+  color: white;
+  font-weight: 600;
+}
+
+/* line 96, ../cssb_sass/partials/_xs.scss */
+.mf-parent {
+  position: absolute;
+  bottom: -18px;
+}
+
+/* line 102, ../cssb_sass/partials/_xs.scss */
+.nav, .nav * {
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 108, ../cssb_sass/partials/_xs.scss */
+.navbar-form .input-group > .form-control.arcat-nav-search {
+  width: 20em;
+}
+
+/* line 112, ../cssb_sass/partials/_xs.scss */
+.navbar-toggle.arcat-navbar-toggle {
+  width: 75%;
+  float: left;
+  padding: 0;
+  border: none;
+}
+
+/* line 118, ../cssb_sass/partials/_xs.scss */
+.dropdown-menu.arcat-dropdown-menu li a {
+  padding: 0.5em 1em;
+  font-size: 12px;
+}
+
+/* line 122, ../cssb_sass/partials/_xs.scss */
+.yamm .dropdown-menu.arcat-dropdown-menu li a {
+  padding: 0.5em 0em;
+  font-size: 12px;
+}
+
+/* line 126, ../cssb_sass/partials/_xs.scss */
+.yamm-item {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* line 130, ../cssb_sass/partials/_xs.scss */
+li.yamm-set {
+  padding: 10px 20px;
+}
+
+/* line 134, ../cssb_sass/partials/_xs.scss */
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+  margin-right: 0em;
+}
+
+/* line 142, ../cssb_sass/partials/_xs.scss */
+.panel-body > h1:first-child, .panel-body > h2:first-child, .panel-body > h3:first-child, .panel-body > h4:first-child, .panel-body > h5:first-child, .panel-body > h6:first-child {
+  margin-top: 0;
+}
+
+/* line 147, ../cssb_sass/partials/_xs.scss */
+.panel-heading.arcat-section {
+  background-color: #eb2127;
+}
+/* line 150, ../cssb_sass/partials/_xs.scss */
+.panel-heading.arcat-section > h1, .panel-heading.arcat-section > h2, .panel-heading.arcat-section > h3, .panel-heading.arcat-section > h4, .panel-heading.arcat-section > h5, .panel-heading.arcat-section > h6 {
+  color: white;
+  margin: 0;
+}
+
+/* line 157, ../cssb_sass/partials/_xs.scss */
+.footer {
+  background-color: red;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 13em;
+}
+
+/* line 166, ../cssb_sass/partials/_xs.scss */
+.footer .footer-links {
+  margin-bottom: 2em;
+}
+
+/* line 169, ../cssb_sass/partials/_xs.scss */
+.footer .footer-legal {
+  margin-top: 2em;
+}
+
+/* line 172, ../cssb_sass/partials/_xs.scss */
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 176, ../cssb_sass/partials/_xs.scss */
+.footer-group * {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 182, ../cssb_sass/partials/_xs.scss */
+.bxnner_xd {
+  margin-bottom: 10px;
+}
+/* line 184, ../cssb_sass/partials/_xs.scss */
+.bxnner_xd img.img-responsive {
+  display: inline;
+}
+
+/* line 190, ../cssb_sass/partials/_xs.scss */
+.filters .panel-title a {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 195, ../cssb_sass/partials/_xs.scss */
+.filters.col-xs-12 {
+  padding-right: 15px;
+}
+
+/* line 198, ../cssb_sass/partials/_xs.scss */
+.filter-heading {
+  font-weight: 600;
+}
+
+/* line 202, ../cssb_sass/partials/_xs.scss */
+.filter-choices input[type=checkbox] {
+  margin: 3px 0 0 -20px;
+}
+
+/* line 209, ../cssb_sass/partials/_xs.scss */
+.panel-heading.arcat-panel-heading {
+  background-color: #eb2127;
+  color: white;
+}
+
+/* line 213, ../cssb_sass/partials/_xs.scss */
+.panel-heading.arcat-panel-heading .panel-title {
+  font-size: 11px;
+  line-height: 11px;
+  padding: 3px 0;
+}
+
+/* line 218, ../cssb_sass/partials/_xs.scss */
+.panel-heading.arcat-panel-heading.gray-bold {
+  background-color: #999999;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 224, ../cssb_sass/partials/_xs.scss */
+.panel-heading.arcat-panel-heading.black-bold,
+.panel-heading.arcat-panel-heading.black-bold a {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 231, ../cssb_sass/partials/_xs.scss */
+.panel-body.arcat-panel-body-cbs {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+/* line 237, ../cssb_sass/partials/_xs.scss */
+ul.right-nav-list {
+  padding-left: 0px;
+}
+
+/* line 242, ../cssb_sass/partials/_xs.scss */
+.csi-item {
+  padding-left: 4.75em;
+  text-indent: -4.75em;
+  margin-bottom: 1em;
+}
+/* line 246, ../cssb_sass/partials/_xs.scss */
+.csi-item:last-child {
+  margin-bottom: 0em;
+}
+
+/* line 252, ../cssb_sass/partials/_xs.scss */
+.arcat_app {
+  overflow: hidden;
+  display: block;
+  background: #2d2d2d url(../gfx/app_download2.png) center center no-repeat;
+  padding: 75px 10px 3px 23px;
+  text-align: center;
+  color: white;
+}
+/* line 259, ../cssb_sass/partials/_xs.scss */
+.arcat_app:hover {
+  color: #f4f4f4;
+}
+
+/* line 265, ../cssb_sass/partials/_xs.scss */
+.news-label {
+  padding: 1em;
+}
+
+/* line 268, ../cssb_sass/partials/_xs.scss */
+.news-table {
+  padding: 0;
+  display: table;
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+/* line 275, ../cssb_sass/partials/_xs.scss */
+.news-table:before {
+  display: none;
+}
+
+/* line 279, ../cssb_sass/partials/_xs.scss */
+.news-item {
+  display: table-row;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/* line 283, ../cssb_sass/partials/_xs.scss */
+.date {
+  display: table-cell;
+  padding: 1em;
+  vertical-align: top;
+  min-width: 26px;
+  text-align: right;
+}
+/* line 290, ../cssb_sass/partials/_xs.scss */
+.date * {
+  color: #eb2127;
+  font-weight: 600;
+}
+/* line 294, ../cssb_sass/partials/_xs.scss */
+.date .day {
+  font-size: 23px;
+}
+/* line 297, ../cssb_sass/partials/_xs.scss */
+.date .month {
+  font-size: 9px;
+  margin-top: -8px;
+}
+
+/* line 302, ../cssb_sass/partials/_xs.scss */
+.news-summary {
+  display: table-cell;
+  padding: 1em 1em 1em 0;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 309, ../cssb_sass/partials/_xs.scss */
+.news-summary .actions .fa,
+.news-summary .actions a {
+  margin-right: 5px;
+}
+
+/* line 315, ../cssb_sass/partials/_xs.scss */
+.video-table {
+  display: table;
+  table-layout: auto;
+  border-collapse: collapse;
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* line 324, ../cssb_sass/partials/_xs.scss */
+.video-table:before {
+  display: none;
+}
+
+/* line 328, ../cssb_sass/partials/_xs.scss */
+.video-item {
+  display: table-row;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/* line 332, ../cssb_sass/partials/_xs.scss */
+.video {
+  display: table-cell;
+  min-width: 171px;
+  padding: 1em;
+}
+
+/* line 337, ../cssb_sass/partials/_xs.scss */
+.video-desc {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+  padding: 1em 1em 1em 0;
+}
+
+/* line 343, ../cssb_sass/partials/_xs.scss */
+.video-link {
+  position: relative;
+  display: block;
+}
+
+/* line 347, ../cssb_sass/partials/_xs.scss */
+.playbtn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: url(/gfx/video_play_overlay2.png) no-repeat;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 359, ../cssb_sass/partials/_xs.scss */
+.search-client > div {
+  padding: 0.5em;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 10px;
+  display: table;
+  width: 100%;
+}
+/* line 366, ../cssb_sass/partials/_xs.scss */
+.search-client > div > div {
+  text-align: center;
+}
+/* line 369, ../cssb_sass/partials/_xs.scss */
+.search-client > div .product-img {
+  text-align: center;
+}
+
+/* line 373, ../cssb_sass/partials/_xs.scss */
+.search-client-no-images > div {
+  padding: 0.5em;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 10px;
+}
+
+/* line 378, ../cssb_sass/partials/_xs.scss */
+.search-nonclient > div {
+  padding: 0.5em;
+  background: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+/* line 383, ../cssb_sass/partials/_xs.scss */
+a.search-client, a.search-client-no-images {
+  font-weight: 600;
+  font-color: #555555;
+  font-size: 1.3333333333333333333em;
+}
+
+/* line 389, ../cssb_sass/partials/_xs.scss */
+.arcat-content {
+  display: block;
+}
+
+/* line 392, ../cssb_sass/partials/_xs.scss */
+.arcat-content a {
+  color: #eb2127;
+  font-weight: 600;
+}
+
+/* line 396, ../cssb_sass/partials/_xs.scss */
+.arcat-content a:after {
+  content: " |";
+  text-decoration: none;
+  color: black;
+}
+/* line 400, ../cssb_sass/partials/_xs.scss */
+.arcat-content a:after:hover {
+  text-decoration: none;
+}
+
+/* line 404, ../cssb_sass/partials/_xs.scss */
+.arcat-content > span:last-child a:after {
+  content: "";
+}
+
+/* line 407, ../cssb_sass/partials/_xs.scss */
+a {
+  color: black;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin: 0px;
+}
+
+/* line 414, ../cssb_sass/partials/_xs.scss */
+.search-product-abbrev {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 418, ../cssb_sass/partials/_xs.scss */
+.search-product-abbrev a {
+  color: #555555;
+}
+
+/* line 425, ../cssb_sass/partials/_xs.scss */
+.modal .msg {
+  margin-bottom: 1em;
+}
+/* line 428, ../cssb_sass/partials/_xs.scss */
+.modal .centered {
+  text-align: center;
+}
+
+/* line 433, ../cssb_sass/partials/_xs.scss */
+#mfSwitchModal.modal {
+  max-width: 28em;
+  margin: auto;
+}
+
+/* line 442, ../cssb_sass/partials/_xs.scss */
+#commentModal .modal-footer button,
+#commentModal .modal-footer input[type=submit] {
+  padding: 0.5em 1em;
+  color: white;
+  text-shadow: none;
+  background-color: #eb2127;
+  background-image: none;
+  margin-right: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-shadow: none;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/* line 459, ../cssb_sass/partials/_xs.scss */
+#commentModal .modal-footer button:hover,
+#commentModal .modal-footer input[type=submit]:hover {
+  background-color: #c71217;
+}
+/* line 464, ../cssb_sass/partials/_xs.scss */
+#commentModal .modal-footer button {
+  background-color: #eeeeee;
+  color: #333333;
+}
+/* line 467, ../cssb_sass/partials/_xs.scss */
+#commentModal .modal-footer button:hover {
+  background-color: #d4d4d4;
+}
+/* line 473, ../cssb_sass/partials/_xs.scss */
+#commentModal p {
+  font-size: 1.1666666666666667em;
+  padding-bottom: 1em;
+}
+
+/* line 479, ../cssb_sass/partials/_xs.scss */
+.feedback {
+  display: none;
+}
+
+/* line 490, ../cssb_sass/partials/_xs.scss */
+.company-profile .logo-wrap {
+  max-width: 165px;
+}
+/* line 493, ../cssb_sass/partials/_xs.scss */
+.company-profile p {
+  padding-bottom: 10px;
+}
+/* line 497, ../cssb_sass/partials/_xs.scss */
+.company-profile .company-reps * {
+  color: #eb2127;
+  font-weight: 600;
+}
+/* line 501, ../cssb_sass/partials/_xs.scss */
+.company-profile a.arcat-content-icon {
+  display: inline-block;
+  max-width: 59px;
+}
+/* line 505, ../cssb_sass/partials/_xs.scss */
+.company-profile .toolbar {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 509, ../cssb_sass/partials/_xs.scss */
+.company-profile .toolbar .col-xs-3, .company-profile .toolbar .col-is-4, .company-profile .toolbar .col-sm-4 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+/* line 513, ../cssb_sass/partials/_xs.scss */
+.company-profile .toolbar em {
+  display: none;
+}
+/* line 517, ../cssb_sass/partials/_xs.scss */
+.company-profile ul {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  list-style: disc;
+}
+
+/* line 530, ../cssb_sass/partials/_xs.scss */
+.product-img {
+  margin-right: 5px;
+}
+
+/* line 535, ../cssb_sass/partials/_xs.scss */
+.products-list .title {
+  cursor: pointer;
+  background: #eb2127;
+  //background-image: url(../gfx/ic_down_caret.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+/* line 541, ../cssb_sass/partials/_xs.scss */
+.products-list .title:hover {
+  background-color: black;
+}
+/* line 547, ../cssb_sass/partials/_xs.scss */
+.products-list > ul > li > a {
+  display: block;
+  border: 1px solid #d4d4d4;
+  margin: 1em 0 0 0;
+  padding: 1em;
+  //background: white url(../gfx/ic_gt_gray.png) no-repeat;
+  background-position: right center;
+}
+/* line 555, ../cssb_sass/partials/_xs.scss */
+.products-list > ul > li > a:hover {
+  //background: #999999 url(../gfx/ic_gt.png) no-repeat;
+  background-position: right center;
+  color: white;
+}
+
+/* line 567, ../cssb_sass/partials/_xs.scss */
+.products-list .arcat-section {
+  cursor: pointer;
+}
+/* line 569, ../cssb_sass/partials/_xs.scss */
+.products-list .arcat-section:hover {
+  background-color: black;
+}
+
+/* line 574, ../cssb_sass/partials/_xs.scss */
+.products-table {
+  margin-bottom: 1em;
+  background: #f4f4f4;
+}
+/* line 578, ../cssb_sass/partials/_xs.scss */
+.products-table .tbl {
+  width: 100%;
+  border-top: 1px solid #d4d4d4;
+  background: white;
+}
+/* line 583, ../cssb_sass/partials/_xs.scss */
+.products-table .grow {
+  width: 100%;
+}
+/* line 587, ../cssb_sass/partials/_xs.scss */
+.products-table .product-row {
+  display: block;
+  background: white;
+  border-collapse: collapse;
+  border-top: 1px solid #d4d4d4;
+}
+/* line 592, ../cssb_sass/partials/_xs.scss */
+.products-table .product-row:first-child {
+  border-top: none;
+}
+/* line 596, ../cssb_sass/partials/_xs.scss */
+.products-table .product-row > div {
+  display: block;
+  padding: 8px;
+  vertical-align: top;
+}
+/* line 601, ../cssb_sass/partials/_xs.scss */
+.products-table .product-row > div > a > img {
+  width: 250px;
+  border: 1px solid #d4d4d4;
+}
+/* line 605, ../cssb_sass/partials/_xs.scss */
+.products-table .product-row > div .popover {
+  max-width: 100%;
+}
+/* line 609, ../cssb_sass/partials/_xs.scss */
+.products-table .product-row h3, .products-table .product-row h3 > a {
+  font-weight: 600;
+  color: #555555;
+  margin: 0.75em auto;
+}
+/* line 614, ../cssb_sass/partials/_xs.scss */
+.products-table .product-row h3 > a {
+  font-size: inherit;
+  text-decoration: underline;
+}
+/* line 619, ../cssb_sass/partials/_xs.scss */
+.products-table .product-row h3.popover-title {
+  margin: auto;
+}
+/* line 625, ../cssb_sass/partials/_xs.scss */
+.products-table header h2, .products-table header h3, .products-table header h5 {
+  //background: transparent url(/gfx/ic_gt_gray.png) no-repeat right center;
+  margin: 8px 1em;
+}
+/* line 628, ../cssb_sass/partials/_xs.scss */
+.products-table header h2 a, .products-table header h3 a, .products-table header h5 a {
+  color: #555555;
+  font-size: inherit;
+  font-weight: 600;
+}
+/* line 637, ../cssb_sass/partials/_xs.scss */
+.products-table:hover {
+  background: #999999;
+}
+/* line 640, ../cssb_sass/partials/_xs.scss */
+.products-table:hover header h2, .products-table:hover header h3, .products-table:hover header h5 {
+  //background: url(/gfx/ic_gt.png) no-repeat right center;
+}
+/* line 642, ../cssb_sass/partials/_xs.scss */
+.products-table:hover header h2 a, .products-table:hover header h3 a, .products-table:hover header h5 a {
+  color: white;
+}
+/* line 647, ../cssb_sass/partials/_xs.scss */
+.products-table:hover > div {
+  background: white;
+}
+/* line 652, ../cssb_sass/partials/_xs.scss */
+.products-table ul {
+  list-style: disc;
+}
+/* line 656, ../cssb_sass/partials/_xs.scss */
+.products-table .arcat-links a {
+  color: #eb2127;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1em;
+}
+/* line 661, ../cssb_sass/partials/_xs.scss */
+.products-table .arcat-links a:after {
+  content: " | ";
+}
+/* line 664, ../cssb_sass/partials/_xs.scss */
+.products-table .arcat-links a:last-child:after {
+  content: "";
+}
+
+/* line 672, ../cssb_sass/partials/_xs.scss */
+.img-ic {
+  padding-left: 2em;
+  margin-bottom: 1em;
+  min-height: 26px;
+}
+/* line 676, ../cssb_sass/partials/_xs.scss */
+.img-ic * {
+  font-size: 1.083333333333333em;
+}
+/* line 679, ../cssb_sass/partials/_xs.scss */
+.img-ic > a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* font-awesome icon-envelope-alt */
+/* line 686, ../cssb_sass/partials/_xs.scss */
+.img-ic-mail {
+  background: url(/gfx/ic_mail_red.png) no-repeat left 0.33333em;
+}
+
+/* icon-phone */
+/* line 690, ../cssb_sass/partials/_xs.scss */
+.img-ic-phone {
+  background: url(/gfx/ic_phone_red.png) no-repeat left 0.33333em;
+}
+
+/* icon-map-marker */
+/* line 694, ../cssb_sass/partials/_xs.scss */
+.img-ic-place {
+  background: url(/gfx/ic_place_red.png) no-repeat left 0.33333em;
+}
+
+/* icon-book, icon-briefleft top */
+/* line 698, ../cssb_sass/partials/_xs.scss */
+.img-ic-catalog {
+  background: url(/gfx/ic_catalog_red.png) no-repeat left 0.33333em;
+}
+
+/* icon-globe */
+/* line 702, ../cssb_sass/partials/_xs.scss */
+.img-ic-web {
+  background: url(/gfx/ic_web_red.png) no-repeat left 0.33333em;
+}
+/* line 704, ../cssb_sass/partials/_xs.scss */
+.img-ic-web a {
+  text-decoration: underline;
+}
+
+/* line 709, ../cssb_sass/partials/_xs.scss */
+.nonclient-sections {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 2em;
+}
+/* line 714, ../cssb_sass/partials/_xs.scss */
+.nonclient-sections .sections-leadin {
+  margin-bottom: 1em;
+}
+/* line 717, ../cssb_sass/partials/_xs.scss */
+.nonclient-sections > div, .nonclient-sections a {
+  font-size: 14px;
+}
+
+/* line 723, ../cssb_sass/partials/_xs.scss */
+.project-specs .div-division {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+/* line 728, ../cssb_sass/partials/_xs.scss */
+.project-specs .div-division:first-child {
+  margin-top: 0;
+}
+/* line 732, ../cssb_sass/partials/_xs.scss */
+.project-specs .start {
+  margin-top: 10px;
+}
+/* line 735, ../cssb_sass/partials/_xs.scss */
+.project-specs b {
+  font-size: 15px;
+}
+/* line 739, ../cssb_sass/partials/_xs.scss */
+.project-specs .project-file {
+  padding: 8px;
+}
+/* line 741, ../cssb_sass/partials/_xs.scss */
+.project-specs .project-file a {
+  color: #eb2127;
+}
+/* line 743, ../cssb_sass/partials/_xs.scss */
+.project-specs .project-file a:hover, .project-specs .project-file a:active, .project-specs .project-file a:focus {
+  color: #333333;
+}
+/* line 749, ../cssb_sass/partials/_xs.scss */
+.project-specs .viewport {
+  max-height: 700px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+/* line 755, ../cssb_sass/partials/_xs.scss */
+.project-specs .specs-selected .div-division {
+  font-size: 1em;
+  margin-top: 1em;
+}
+/* line 759, ../cssb_sass/partials/_xs.scss */
+.project-specs .specs-selected .div-section {
+  font-size: 0.8888888888em;
+}
+/* line 761, ../cssb_sass/partials/_xs.scss */
+.project-specs .specs-selected .div-section .div-group {
+  margin-left: 1em;
+}
+/* line 764, ../cssb_sass/partials/_xs.scss */
+.project-specs .specs-selected .div-section div * {
+  font-size: 0.9em;
+}
+/* line 767, ../cssb_sass/partials/_xs.scss */
+.project-specs .specs-selected .div-section .company {
+  margin-left: 1em;
+  color: #333333;
+}
+
+/* line 776, ../cssb_sass/partials/_xs.scss */
+.project-specs-detail.modal-body {
+  margin-left: 15px;
+}
+/* line 779, ../cssb_sass/partials/_xs.scss */
+.project-specs-detail .group {
+  margin-top: 15px;
+  font-size: 16px;
+}
+/* line 783, ../cssb_sass/partials/_xs.scss */
+.project-specs-detail .leaf {
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 791, ../cssb_sass/partials/_xs.scss */
+.video-row {
+  padding: 1em;
+  border-left: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+/* line 797, ../cssb_sass/partials/_xs.scss */
+.video-last-row {
+  padding: 1em;
+  border-top: 1px solid #eeeeee;
+}
+
+@media only screen and (min-width: 480px) {
+  /* line 1, ../cssb_sass/partials/_is.scss */
+  .filters.col-is-4 {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 1, ../cssb_sass/partials/_sm.scss */
+  body {
+    margin-bottom: 8em;
+  }
+
+  /* line 4, ../cssb_sass/partials/_sm.scss */
+  .footer {
+    height: 8em;
+  }
+
+  /* line 8, ../cssb_sass/partials/_sm.scss */
+  .filters.col-sm-4, .filters.col-md-3 {
+    padding-right: 0;
+  }
+
+  /* line 11, ../cssb_sass/partials/_sm.scss */
+  .arcat-header {
+    border-bottom: 6px solid #eb2127;
+  }
+
+  /* line 14, ../cssb_sass/partials/_sm.scss */
+  .social {
+    border-left: 1px solid #999999;
+    font-size: 24px;
+  }
+
+  /* line 18, ../cssb_sass/partials/_sm.scss */
+  .arcat-brand .mf {
+    color: #999999;
+  }
+  /* line 21, ../cssb_sass/partials/_sm.scss */
+  .arcat-brand .mf a {
+    cursor: pointer;
+    color: #999999;
+  }
+  /* line 24, ../cssb_sass/partials/_sm.scss */
+  .arcat-brand .mf a:hover {
+    color: #eeeeee;
+  }
+  /* line 28, ../cssb_sass/partials/_sm.scss */
+  .arcat-brand .mf .active {
+    color: #bbbbbb;
+    font-weight: 600;
+  }
+
+  /* line 33, ../cssb_sass/partials/_sm.scss */
+  .arcat-nav-search {
+    max-width: 103px;
+  }
+
+  /* line 37, ../cssb_sass/partials/_sm.scss */
+  .lt-ie9 .arcat-nav-search {
+    max-width: 98px;
+  }
+
+  /* line 42, ../cssb_sass/partials/_sm.scss */
+  #mfSwitchModal.modal {
+    width: 28em;
+    margin-left: -14em;
+  }
+
+  /* line 47, ../cssb_sass/partials/_sm.scss */
+  .feedback {
+    display: block;
+    position: absolute;
+    top: 14em;
+    right: 0;
+    z-index: 5000;
+  }
+
+  /* line 56, ../cssb_sass/partials/_sm.scss */
+  .search-client > div > div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+  }
+  /* line 61, ../cssb_sass/partials/_sm.scss */
+  .search-client > div > div.product-img {
+    width: 1%;
+    padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* line 4, ../cssb_sass/partials/_md.scss */
+  .arcat-content {
+    float: right;
+    display: inline;
+  }
+  /* line 8, ../cssb_sass/partials/_md.scss */
+  .arcat-content.with-image {
+    float: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  /* line 15, ../cssb_sass/partials/_md.scss */
+  .search-client > div > div {
+    display: table-cell;
+    vertical-align: center;
+  }
+
+  /* line 21, ../cssb_sass/partials/_md.scss */
+  .arcat-nav-search {
+    max-width: 260px;
+  }
+
+  /* line 26, ../cssb_sass/partials/_md.scss */
+  .lt-ie9 .arcat-nav-search {
+    max-width: none;
+  }
+
+  /* line 30, ../cssb_sass/partials/_md.scss */
+  .products-table .product-row {
+    display: table-row;
+  }
+  /* line 33, ../cssb_sass/partials/_md.scss */
+  .products-table .product-row:first-child > div {
+    border-top: none;
+  }
+  /* line 37, ../cssb_sass/partials/_md.scss */
+  .products-table .product-row > div {
+    display: table-cell;
+    border-top: 1px solid #d4d4d4;
+  }
+  /* line 40, ../cssb_sass/partials/_md.scss */
+  .products-table .product-row > div > a > img {
+    width: 200px;
+  }
+}
